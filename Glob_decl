@@ -1,0 +1,12 @@
+        integer :: i,N
+        integer,parameter :: Nm=50000
+        complex*16 :: ii
+        real*8 :: pi,t
+        real*8 :: uff,ufc,ec,nc,nf,v,v2,m
+        real*8 :: w,dw
+        real*8 :: dc,df
+
+        common /ext1/ pi,t
+        common /ext2/ uff,ufc,ec,nc,nf,v,v2,m
+        common /ext3/ w,dw
+        common /ext4/ dc(-Nm:Nm),df(-Nm:Nm)
